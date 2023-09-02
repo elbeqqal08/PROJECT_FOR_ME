@@ -440,3 +440,53 @@ img {
 }
 
 /* End Info */
+
+/* Start Design */
+
+.main-rulez h1 {
+  font-size: 65px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: -358%;
+  left: 63%;
+}
+
+.main-rulez p {
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  padding-top: 1.7rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  position: absolute;
+  bottom: -397%;
+  margin: 5rem 5rem;
+}
+
+@media (min-width: 1280px) {
+  .main-rulez p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.main-rulez button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkblue;
+  color: white;
+  transition: all 0.55s ease;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.main-rulez button:hover {
+  background-color: transparent;
+  color: darkblue;
+  transform: translateY(-50%);
+}
+
+/* End Design */
