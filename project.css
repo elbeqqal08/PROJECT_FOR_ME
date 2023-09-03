@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 /* Start Navbar */
 
 .logo {
@@ -195,7 +199,7 @@ img {
 }
 
 #titels h1 {
-  margin-left: 14rem;
+  margin-left: 15rem;
   width: 376px;
   font-size: 30px;
   font-weight: 500;
@@ -235,7 +239,7 @@ img {
 
 .image2 {
   position: absolute;
-  top: 163.5%;
+  top: 167.5%;
   left: 25%;
   right: 2%;
 }
@@ -319,6 +323,14 @@ img {
   transform: translateY(-50%);
 }
 
+#titels .title {
+  margin-left: 291px;
+}
+
+#titels #bm {
+  margin-left: 291px;
+}
+
 /* End Section */
 
 /* Start Info */
@@ -329,7 +341,7 @@ img {
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
-  left: 5%;
+  left: 9%;
   bottom: -250%;
 }
 
@@ -395,6 +407,7 @@ img {
 .list ul {
   position: absolute;
   right: 65%;
+  left: 7%;
   bottom: -334.5%;
   font-size: 5px;
   font-weight: bold;
@@ -413,7 +426,7 @@ img {
   transition: all 0.55s ease;
   cursor: pointer;
   position: absolute;
-  left: 5%;
+  left: 9%;
   bottom: -345%;
 }
 
@@ -449,10 +462,11 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   bottom: -358%;
-  left: 63%;
+  left: 46%;
+  text-align: center;
 }
 
-.main-rulez p {
+.main-rulez #t1 {
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
   color: #999;
@@ -460,8 +474,37 @@ img {
   padding-bottom: 1.5rem;
   margin: 0;
   position: absolute;
-  bottom: -397%;
-  margin: 5rem 5rem;
+  bottom: -400%;
+  margin: 5rem 17rem;
+  margin-right: 50px;
+}
+
+.main-rulez #t2 {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 475%;
+  bottom: -300%;
+  margin: 5rem 17rem;
+  margin-right: 0%;
+}
+
+.main-rulez #t3 {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 515%;
+  bottom: -300%;
+  margin: 5rem 17rem;
+  margin-right: 0%;
 }
 
 @media (min-width: 1280px) {
@@ -481,12 +524,25 @@ img {
   transition: all 0.55s ease;
   cursor: pointer;
   margin-left: 2rem;
+  position: absolute;
+  top: 560%;
+  left: 27%;
 }
 
 .main-rulez button:hover {
   background-color: transparent;
   color: darkblue;
   transform: translateY(-50%);
+}
+
+.img6 {
+  width: 20%;
+}
+
+.img6 > img {
+  position: absolute;
+  top: 449%;
+  left: 75%;
 }
 
 /* End Design */
