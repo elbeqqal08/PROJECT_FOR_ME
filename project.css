@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /* Start Navbar */
@@ -28,9 +28,12 @@ body {
   width: 20%;
 }
 
-.logo img {
-  margin-top: -37px;
+.logo .add {
+  margin-top: -33px;
   padding: 10px;
+  position: absolute;
+  left: 10%;
+  width: 275px;
 }
 
 nav ul {
@@ -96,6 +99,12 @@ nav ul li a:hover {
   justify-content: center;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .titel1 h1 {
   font-size: 5rem;
   font-family: monospace;
@@ -115,29 +124,29 @@ nav ul li a:hover {
 }
 
 .btn-1 {
-  margin-left: 10rem;
   margin-bottom: 5px;
   float: left;
   border-radius: 10px;
+  border-color: rgb(37, 84, 237);
   position: absolute;
   right: 9px;
   left: 9px;
   width: 189.78px;
   height: 64px;
   padding: 10px;
-  background-color: darkblue;
+  background-color: rgb(37, 84, 237);
   color: #fff;
   margin-left: 4rem;
   padding-right: 2px;
   padding-left: 2px;
-  transition: all 0.55s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
 .btn-1:hover {
-  background-color: transparent;
-  color: darkblue;
-  transform: translateY(-50%);
+  background: transparent;
+  color: #fff;
+  background-color: chocolate;
 }
 
 .btn-2 {
@@ -146,40 +155,46 @@ nav ul li a:hover {
   float: left;
   padding: 19px;
   border-radius: 10px;
-  background-color: aqua;
-  color: #fff;
+  border: 3px solid;
+  border-color: rgb(37, 84, 237);
+  background-color: #fff;
+  color: rgb(37, 84, 237);
   padding-right: 2px;
   margin-left: 4rem;
   position: relative;
   left: 50%;
   padding-right: 2rem;
   padding-left: 2rem;
-  transition: all 0.55s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .btn-2:hover {
-  color: aqua;
-  background-color: transparent;
-  transform: translateY(-50%);
+  background: transparent;
+  color: #fff;
+  background-color: chocolate;
 }
 
 img {
-  height: auto;
   max-width: 100%;
+  width: 83.1%;
+}
+
+img {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 11px;
+  left: 158px;
   padding-left: 22rem;
-  margin-top: 1rem;
-  padding: auto;
+  margin-left: 4.5%;
+  margin-top: 3%;
 }
 
 /* End Header */
 
 /* Start Section */
 
-.content h1 {
+.content .txt-type {
   font-size: 63px;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
@@ -187,6 +202,16 @@ img {
   margin-bottom: 70px;
   padding: 80px;
   padding-left: 4rem;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid black;
+}
+
+/* #icon > i {
+  width: 20%;
+  height: 20%;
 }
 
 .icons > img {
@@ -278,13 +303,13 @@ img {
 }
 
 .info {
-  width: 500px;
-  height: 402px;
+  width: 442px;
+  height: 260px;
   background-color: rgb(253, 187, 43, 1);
   margin-left: 42rem;
   padding: 0;
   border-radius: 10px;
-  margin-top: -420px;
+  margin-top: -218px;
   padding: 2rem;
 }
 
@@ -298,9 +323,9 @@ img {
 }
 
 .The-Titels button {
-  padding-left: 5.5rem;
-  padding-right: 5.5rem;
-  padding-top: 5px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 15px;
   border-radius: 10px;
   background-color: darkblue;
   color: white;
@@ -311,10 +336,12 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -4px;
   margin-left: 58px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   margin-top: 37px;
   transition: all 0.55s ease;
   cursor: pointer;
+  position: absolute;
+  right: 10.5%;
 }
 
 .The-Titels button:hover {
@@ -329,12 +356,12 @@ img {
 
 #titels #bm {
   margin-left: 291px;
-}
+}  */
 
 /* End Section */
 
 /* Start Info */
-
+/* 
 .Titels h1 {
   color: black;
   font-size: 3.5rem;
@@ -408,7 +435,7 @@ img {
   position: absolute;
   right: 65%;
   left: 7%;
-  bottom: -334.5%;
+  bottom: -337.5%;
   font-size: 5px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -417,9 +444,9 @@ img {
 .btn-4 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 7px;
   background-color: darkblue;
   color: white;
   font-weight: 700;
@@ -427,7 +454,7 @@ img {
   cursor: pointer;
   position: absolute;
   left: 9%;
-  bottom: -345%;
+  bottom: -349%;
 }
 
 .btn-4:hover {
@@ -450,12 +477,12 @@ img {
   position: relative;
   top: -240.5%;
   bottom: -15%;
-}
+} */
 
 /* End Info */
 
 /* Start Design */
-
+/* 
 .main-rulez h1 {
   font-size: 65px;
   font-weight: 500;
@@ -543,12 +570,12 @@ img {
   position: absolute;
   top: 449%;
   left: 75%;
-}
+} */
 
 /* End Design */
 
 /* Start Main Rulez */
-
+/* 
 .rulez h1 {
   font-size: 65px;
   font-weight: 700;
@@ -601,10 +628,10 @@ img {
 
 .list2 ul {
   position: absolute;
-  top: 656.5%;
+  top: 657.5%;
   right: 65%;
-  left: 16%;
-  bottom: -334.5%;
+  left: 15%;
+  bottom: -415.5%;
   font-size: 25px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -618,7 +645,7 @@ img {
   transition: all 0.55s ease;
   border-radius: 4px;
   position: absolute;
-  top: 675%;
+  top: 689%;
   left: 16.5%;
   margin-top: -2%;
 }
@@ -636,6 +663,163 @@ img {
   bottom: -315%;
   width: 100%;
   height: 100%;
-}
+} */
 
 /* End Main Rulez */
+
+/* Start Section 2 */
+/* 
+.head1 {
+  width: 50%;
+  height: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 693%;
+  left: 15.7%;
+}
+
+.head1 > h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titels {
+  position: absolute;
+  top: 763%;
+  left: 16%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #101010;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.titels span {
+  font-weight: 600;
+  color: black;
+}
+
+.boutons #s1 {
+  padding: 10px;
+  padding-right: 1.9rem;
+  padding-left: 1.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 1.15rem;
+  border-radius: 7px;
+  background-color: darkblue;
+  color: #fff;
+  transition: all 0.55s ease;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 911%;
+  left: 17%;
+}
+
+.boutons #s1:hover {
+  background-color: chocolate;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.boutons #s2 {
+  padding: 10px;
+  padding-right: 1.5rem;
+  padding-left: 1.7rem;
+  padding-top: 0.6rem;
+  padding-bottom: 1.15rem;
+  border-radius: 7px;
+  border: 2px solid blue;
+  background-color: #fff;
+  color: blue;
+  transition: all 0.55s ease;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 911%;
+  left: 35%;
+}
+
+.boutons #s2:hover {
+  background-color: chocolate;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.other-img {
+  width: 1466px;
+  height: 500px;
+  position: absolute;
+  top: 679%;
+  left: 37%;
+} */
+
+/* End Section 2 */
+
+/* Start Footer */
+
+/* 
+#c1 {
+  width: 2031px;
+  height: 839px;
+  background-color: #1e73be;
+  position: absolute;
+  top: 920%;
+  left: -7%;
+  border-radius: 10px;
+}
+
+.other-logo > img {
+  position: absolute;
+  top: 32%;
+  left: -24.5%;
+}
+
+.other-info {
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  line-height: 23.2px;
+}
+
+.other-info img .icon-1 {
+  width: 115%;
+  position: absolute;
+  right: 25%;
+  left: -486%;
+}
+
+.other-info img .icon-2 {
+  position: absolute;
+  left: 10%;
+  display: inline-block;
+}
+
+.other-info #email {
+  cursor: pointer;
+}
+
+.other-info2 {
+  float: right;
+  position: absolute;
+  top: -1%;
+  right: -121%;
+}
+
+.other-info2 .last-icons {
+  position: absolute;
+  right: 10%;
+} */
+
+/* End Footer */
